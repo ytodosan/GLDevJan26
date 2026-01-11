@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Yacht form page" />
+			<Item Name="LocalizableStrings.CaptainEmail_caption.Value" Value="Email address" />
+			<Item Name="LocalizableStrings.CaptainEmail_label.Value" Value="Captain email" />
+			<Item Name="LocalizableStrings.EmailInput_9chprs3_label.Value" Value="Email address" />
+			<Item Name="LocalizableStrings.Test_caption.Value" Value="Test" />
+			<Item Name="LocalizableStrings.addRecord_18rpakd_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_r7sito2_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_rl2mwj5_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_rx3xg3x_caption.Value" Value="Add new" />
+		</Items>
+	</Group>
+</Resources>

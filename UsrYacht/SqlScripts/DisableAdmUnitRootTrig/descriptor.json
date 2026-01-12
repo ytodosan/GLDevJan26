@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "98eaf77a-8d40-5c50-4171-6d2951bb876b",
+    "Name": "DisableAdmUnitRootTrig",
+    "DBEngineType": 0,
+    "InstallType": 0,
+    "ModifiedOnUtc": "\/Date(1767961003000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

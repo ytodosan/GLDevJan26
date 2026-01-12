@@ -24,11 +24,6 @@ define("UsrYacht_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"operation": "merge",
 				"name": "DataTable",
 				"values": {
-					"features":{
-						"columns": {
-							"adding": false
-						}
-					},
 					"columns": [
 						{
 							"id": "f252f581-0ccf-44ac-b7c9-c00df2ad9919",
@@ -55,7 +50,18 @@ define("UsrYacht_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 							"caption": "#ResourceString(PDS_UsrLength)#",
 							"dataValueType": 4
 						}
-					]
+					],
+					"features": {
+						"columns": {
+							"adding": false
+						},
+						"editable": {
+							"enable": false,
+							"itemsCreation": false,
+							"floatingEditPanel": false
+						}
+					},
+					"visible": true
 				}
 			},
 			{

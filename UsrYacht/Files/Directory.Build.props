@@ -1,9 +1,12 @@
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrCategoryInYacht/UsrCategoryInYacht.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrCategoryInYacht/UsrCategoryInYacht.cs')" />
 		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrTrafficLights/UsrTrafficLights.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrTrafficLights/UsrTrafficLights.cs')" />
 		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
 		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrYacht/UsrYacht.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrYacht/UsrYacht.cs')" />
+		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrYachtCategories/UsrYachtCategories.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrYachtCategories/UsrYachtCategories.cs')" />
 		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrYachtDriveTypes/UsrYachtDriveTypes.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrYachtDriveTypes/UsrYachtDriveTypes.cs')" />
+		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrYachtRentals/UsrYachtRentals.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrYachtRentals/UsrYachtRentals.cs')" />
 		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrYachtStatuses/UsrYachtStatuses.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrYachtStatuses/UsrYachtStatuses.cs')" />
 	</ItemGroup>
 </Project>

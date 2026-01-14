@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Yacht form page" />
+			<Item Name="LocalizableStrings.Actions_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.CaptainEmail_caption.Value" Value="Email address" />
 			<Item Name="LocalizableStrings.CaptainEmail_label.Value" Value="Captain email" />
 			<Item Name="LocalizableStrings.Categories_label.Value" Value="Categories" />
@@ -15,6 +16,7 @@
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_65hq39n_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_ssfv4ty_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.LengthCannotBeLess.Value" Value="The very minimum length is 10 ft" />
+			<Item Name="LocalizableStrings.MenuItem_xnf9xa5_caption.Value" Value="Avg Ticket Price" />
 			<Item Name="LocalizableStrings.PassengerCountMin.Value" Value="There should be at least 6 passengers on a yacht" />
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 50" />
 			<Item Name="LocalizableStrings.Test_caption.Value" Value="Test" />

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "03792e7b-c226-49f8-b57b-af8891528f52",
+    "Name": "UsrProcess_02fcbb9",
+    "ModifiedOnUtc": "\/Date(1768306189000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Avg Ticket Price By Drive Type",
+    "DependsOn": []
+  }
+}

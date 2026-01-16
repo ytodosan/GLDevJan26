@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Yacht Average BP" />
+			<Item Name="LocalizableStrings.AveragePrice_label.Value" Value="Average ticket price based on the same drive type" />
+			<Item Name="LocalizableStrings.CancelButton_caption.Value" Value="Close" />
+			<Item Name="LocalizableStrings.PageTitle_caption.Value" Value="Average ticket price" />
+			<Item Name="LocalizableStrings.SaveButton_caption.Value" Value="OK" />
+			<Item Name="Parameters.97b3c222-ca10-ec71-0084-a12cf69880bf.Caption" Value="SQL Text" />
+			<Item Name="Parameters.c9eb5cfb-770e-bb7e-d598-5eb00e5b0258.Caption" Value="Average price" />
+		</Items>
+	</Group>
+</Resources>

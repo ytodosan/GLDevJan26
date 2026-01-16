@@ -16,9 +16,11 @@
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_65hq39n_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_ssfv4ty_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.LengthCannotBeLess.Value" Value="The very minimum length is 10 ft" />
+			<Item Name="LocalizableStrings.MaxPriceService_caption.Value" Value="Yacht MaxPrice Service" />
 			<Item Name="LocalizableStrings.MenuItem_xnf9xa5_caption.Value" Value="Avg Ticket Price" />
 			<Item Name="LocalizableStrings.PassengerCountMin.Value" Value="There should be at least 6 passengers on a yacht" />
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 50" />
+			<Item Name="LocalizableStrings.SaveButton_caption.Value" Value="Save" />
 			<Item Name="LocalizableStrings.Test_caption.Value" Value="Test" />
 			<Item Name="LocalizableStrings.addRecord_18rpakd_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_4zita7j_caption.Value" Value="Add new" />

@@ -1,0 +1,187 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ServiceSchemaManager",
+      "UId": "4d39fc00-6706-4c43-a077-3700e77d7982",
+      "A2": "UsrDNBService",
+      "A5": "2d971e2d-ddf5-45fa-bd74-add48149d162",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "55288be4-4aec-4110-949a-8ba5519ee05d",
+      "B8": "8.3.2.4166",
+      "IQ1": "https://api.service.dnb.com",
+      "IQ2": 1,
+      "IQ3": 4,
+      "IQ7": [],
+      "IQ4": [
+        {
+          "UId": "9da7c2c7-45c8-4814-b026-e6f5ada38648",
+          "A2": "UsrCompaniesByName",
+          "A3": "4d39fc00-6706-4c43-a077-3700e77d7982",
+          "A4": "4d39fc00-6706-4c43-a077-3700e77d7982",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "6cf4226e-54a6-418c-9dda-865ed28c96c5",
+                "A2": "UsrPName",
+                "IU1": "$.primaryName",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "fa673cd5-9b08-47af-ab4f-450765e335f5",
+                "A2": "UsrCCode",
+                "IU1": "$.countryCode",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "3de4db04-3f8a-4851-8964-623ad686fcdd",
+                "A2": "UsrAddress",
+                "IU1": "$.address",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "53f4a9af-a5dc-4eaf-a34f-6298f5e14153",
+                "A2": "UsrTelephone",
+                "IU1": "$.telephone",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "3704350f-ed84-4577-8f06-b9e9fb235e44",
+                "A2": "UsrCity",
+                "IU1": "$.city",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "f5e31773-95d4-4856-8593-b86d7a151f19",
+                "A2": "UsrState",
+                "IU1": "$.state",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "d98b497a-5708-4c1e-94f5-54863de68538",
+                "A2": "UsrZipcode",
+                "IU1": "$.zipcode",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 2,
+            "IT1": "/companyLookup/lookupInfoByName"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "f490af8c-e381-4aae-b6bb-50ab16230053",
+                "A2": "UsrCompanies",
+                "IU1": "$.companies",
+                "IU2": "Object",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": [
+                  {
+                    "UId": "9fdf1c23-b4a4-4bd1-8ef7-3bfb8a676d62",
+                    "A2": "UsrCCName",
+                    "IU1": "companyName",
+                    "IU2": "Text",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null"
+                    },
+                    "IU6": []
+                  },
+                  {
+                    "UId": "27f00428-96e5-4298-8b91-e494a0d50585",
+                    "A2": "UsrCRNumber",
+                    "IU1": "registrationNumber",
+                    "IU2": "Text",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null"
+                    },
+                    "IU6": []
+                  },
+                  {
+                    "UId": "c352d6e0-3ab4-4779-9ae3-9e816bf96efe",
+                    "A2": "UsrCCity",
+                    "IU1": "city",
+                    "IU2": "Text",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null"
+                    },
+                    "IU6": []
+                  }
+                ]
+              },
+              {
+                "UId": "714d68c8-fa6a-4a5b-846b-9bd48dfc2b3e",
+                "A2": "UsrCDResults",
+                "IU1": "$.containsDelistedResults",
+                "IU2": "Boolean",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "4f8c08d6-5a14-471b-90e2-b9b40f6ea77e",
+    "Name": "UsrInsertFromEnrAcc",
+    "ModifiedOnUtc": "\/Date(1769098813000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Insert from enrich account",
+    "DependsOn": []
+  }
+}

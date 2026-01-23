@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "11ee536c-d54e-e625-fd05-95f97f489063",
+    "Name": "UsrUI",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1769002178000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrUI.csproj",
+    "DependsOn": [
+      {
+        "UId": "111724b1-ef11-d582-dab8-3ebb3be9b0e6",
+        "Name": "UsrEntities",
+        "Type": 1
+      }
+    ]
+  }
+}

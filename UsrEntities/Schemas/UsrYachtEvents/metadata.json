@@ -1,0 +1,25 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "SourceCodeSchemaManager",
+      "UId": "0cb69fdf-a578-4221-bd96-e0eb088e658d",
+      "A2": "UsrYachtEvents",
+      "A5": "2d971e2d-ddf5-45fa-bd74-add48149d162",
+      "B1": [],
+      "B2": [
+        {
+          "UId": "d491aab3-813f-3056-440f-b10eaffb2f46",
+          "A2": "ValueIsTooBig",
+          "A3": "0cb69fdf-a578-4221-bd96-e0eb088e658d",
+          "A4": "0cb69fdf-a578-4221-bd96-e0eb088e658d",
+          "A5": "2d971e2d-ddf5-45fa-bd74-add48149d162"
+        }
+      ],
+      "B3": [],
+      "B6": "111724b1-ef11-d582-dab8-3ebb3be9b0e6",
+      "B8": "8.3.2.4166",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3",
+      "HD2": " namespace Terrasoft.Configuration\r\n{\r\n    using System;\r\n    using Terrasoft.Common;\r\n    using Terrasoft.Core.Entities;\r\n    using Terrasoft.Core.Entities.Events;\r\n    [EntityEventListener(SchemaName = \"UsrYacht\")]\r\n    public class YachtEntityEventListener : BaseEntityEventListener\r\n    {\r\n        public override void OnSaving(object sender, EntityBeforeEventArgs e)\r\n        {\r\n            base.OnSaving(sender, e);\r\n            Entity yacht = (Entity)sender;\r\n            decimal price = yacht.GetTypedColumnValue<decimal>(\"UsrPrice\");\r\n            if (price > 100000)\r\n            {\r\n                e.IsCanceled = true;\r\n\r\n                string messageTemplate = new LocalizableString(yacht.UserConnection.ResourceStorage,\r\n                    \"UsrYachtEvents\", \"LocalizableStrings.ValueIsTooBig.Value\").ToString();\r\n\r\n                string message = string.Format(messageTemplate, \"100 000 GBP\");\r\n                throw new Exception(message);\r\n            }\r\n        }\r\n    }\r\n}"
+    }
+  }
+}

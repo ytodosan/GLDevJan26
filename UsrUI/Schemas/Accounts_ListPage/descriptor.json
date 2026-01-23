@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "337febb5-49ce-4b64-b768-47a12fbdc8ef",
+    "Name": "Accounts_ListPage",
+    "ModifiedOnUtc": "\/Date(1768823176000)\/",
+    "Parent": {
+      "UId": "f537fd79-9bdc-43ea-a9ce-b068c29d0b22",
+      "Name": "Accounts_ListPage"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Accounts list page",
+    "DependsOn": []
+  }
+}

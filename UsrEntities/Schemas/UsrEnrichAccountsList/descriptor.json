@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "71fc2681-0134-45e9-9384-72c3c1644b32",
+    "Name": "UsrEnrichAccountsList",
+    "ModifiedOnUtc": "\/Date(1768823588000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Enrich accounts list",
+    "DependsOn": []
+  }
+}

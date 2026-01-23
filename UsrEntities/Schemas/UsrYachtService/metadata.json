@@ -1,0 +1,17 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "SourceCodeSchemaManager",
+      "UId": "102e29a3-05e3-4fd7-b541-90653d723ab7",
+      "A2": "UsrYachtService",
+      "A5": "2d971e2d-ddf5-45fa-bd74-add48149d162",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "111724b1-ef11-d582-dab8-3ebb3be9b0e6",
+      "B8": "8.3.2.4166",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3",
+      "HD2": " namespace Terrasoft.Configuration\r\n{\r\n    using System.ServiceModel;\r\n    using System.ServiceModel.Web;\r\n    using System.ServiceModel.Activation;\r\n    using Terrasoft.Core.DB;\r\n    using Terrasoft.Web.Common;\r\n    using System;\r\n    using System.Web.SessionState;\r\n    [ServiceContract]\r\n    [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Required)]\r\n    public class YachtService : BaseService, IReadOnlySessionState\r\n    {\r\n        [OperationContract]\r\n        [WebInvoke(Method = \"POST\", BodyStyle = WebMessageBodyStyle.Wrapped,\r\n            RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]\r\n\r\n\tpublic decimal GetMaxPriceByDriveTypeId(string driveTypeId)\r\n        {\r\n            if (string.IsNullOrEmpty(driveTypeId))\r\n            {\r\n                return -1;\r\n            }\r\n            Select select = new Select(UserConnection)\r\n                .Column(Func.Max(\"UsrPrice\"))\r\n                .From(\"UsrYacht\")\r\n                .Where(\"UsrDriveTypeId\").IsEqual(Column.Parameter(new Guid(driveTypeId)))\r\n                .And(\"UsrStatusId\").IsEqual(Column.Parameter(new Guid(\"c60d9040-7911-452e-a4f2-1c71fa145609\"))) // 1. Operational\r\n                as Select;\r\n            decimal result = select.ExecuteScalar<decimal>();\r\n            return result;\r\n        }\r\n        [OperationContract]\r\n        [WebInvoke(Method = \"GET\", BodyStyle = WebMessageBodyStyle.Wrapped,\r\n            RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]\r\n        public string GetExample()\r\n        {\r\n            return \"OK!\";\r\n        }\r\n\r\n    }\r\n}"
+    }
+  }
+}

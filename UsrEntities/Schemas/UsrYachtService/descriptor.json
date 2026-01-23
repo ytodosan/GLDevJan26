@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "102e29a3-05e3-4fd7-b541-90653d723ab7",
+    "Name": "UsrYachtService",
+    "ModifiedOnUtc": "\/Date(1769098643000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "Yacht Service",
+    "DependsOn": []
+  }
+}

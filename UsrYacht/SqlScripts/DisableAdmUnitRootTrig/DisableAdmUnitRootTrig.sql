@@ -1,2 +1,0 @@
-alter table SysAdminUnit
-disable trigger TRSysAdminUnitRoot

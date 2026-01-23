@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "418f7fed-9eb6-4c05-9340-d2cfd2257e68",
+    "Name": "UsrEnrichAccountDetMini",
+    "ModifiedOnUtc": "\/Date(1768822297000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "EnrichAccountDetMini",
+    "DependsOn": []
+  }
+}

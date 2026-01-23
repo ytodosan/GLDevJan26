@@ -1,0 +1,5 @@
+<Solution>
+    <Project Path="..\packages\UsrEntities\Files\UsrEntities.csproj" />
+    <Project Path="..\packages\UsrMain\Files\UsrMain.csproj" />
+    <Project Path="..\packages\UsrUI\Files\UsrUI.csproj" />
+</Solution>
